@@ -19,4 +19,4 @@ def run_task(name: str, description: str, parameters: dict, service_metadata: di
         output_dir=output_dir,
     )
 
-    logging.info("Generated project directory using cookiecutter from template {template_url}")
+    logging.info(f"Generated project directory using cookiecutter from template {template_url}")
